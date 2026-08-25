@@ -1,0 +1,29 @@
+[gd_scene format=3 uid="uid://cqfeqixq84hby"]
+
+[ext_resource type="Script" uid="uid://b6o0wbdwhyy3n" path="res://scripts/unit.gd" id="1_o7ajc"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_v5dpy"]
+size = Vector2(60, 60)
+
+[node name="Unit" type="Area2D" unique_id=191691804]
+script = ExtResource("1_o7ajc")
+
+[node name="ColorRect" type="ColorRect" parent="." unique_id=512653829]
+offset_left = -35.0
+offset_top = -35.0
+offset_right = 35.0
+offset_bottom = 35.0
+mouse_filter = 2
+color = Color(1, 0.56078434, 0, 0.99607843)
+
+[node name="LevelLabel" type="Label" parent="." unique_id=1801556332]
+offset_left = -30.0
+offset_top = -52.0
+offset_right = 10.0
+offset_bottom = -3.0
+text = "Corn
+Lv.1"
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=266882313]
+shape = SubResource("RectangleShape2D_v5dpy")
+debug_color = Color(0.94632465, 0, 0.122843646, 1)
