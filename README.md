@@ -13,13 +13,13 @@ Dokumentasi singkat untuk instalasi dan menjalankan project ini setelah di-clone
 2. Clone repository:
 
    ```bash
-   git clone https://github.com/syarifyahyash/godot-pvz-beta.git
+   git clone https://github.com/syarifyahyash/godot-pvp-beta.git
    ```
 
 3. Masuk ke folder project:
 
    ```bash
-   cd godot-pvz-beta
+   cd godot-pvp-beta
    ```
 
 ## Cara Menjalankan Project
@@ -28,7 +28,7 @@ Dokumentasi singkat untuk instalasi dan menjalankan project ini setelah di-clone
 
 1. Buka Godot Engine.
 2. Pilih **Import**.
-3. Arahkan ke file `project.godot` di folder `godot-pvz-beta`.
+3. Arahkan ke file `project.godot` di folder `godot-pvp-beta`.
 4. Klik **Import & Edit**.
 5. Jalankan project dengan tombol **Play** (atau tekan `F5`).
 
