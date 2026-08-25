@@ -1,4 +1,4 @@
-# Godot PVZ Beta
+# Godot PVP Beta
 
 Dokumentasi singkat untuk instalasi dan menjalankan project ini setelah di-clone.
 
